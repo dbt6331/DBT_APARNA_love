@@ -1,0 +1,7 @@
+
+{{
+    config(
+        materialized='table'
+    )
+}}
+select *, YEAR(date) as new_date_col from {{ source('stage', 'CHEMCALSAMPLE') }}

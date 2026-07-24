@@ -1,0 +1,11 @@
+version: 2
+
+sources:
+  - name: stage
+    database: hdfc_db
+    schema: hdfc_sch
+    tables:
+      - name: CHEMCALSAMPLE
+      
+
+        

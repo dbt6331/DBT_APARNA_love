@@ -1,0 +1,1 @@
+SELECT * FROM {{ ref('dbt_model6') }}
