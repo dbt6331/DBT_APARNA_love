@@ -6,6 +6,7 @@ sources:
     schema: hdfc_sch
     tables:
       - name: CHEMCALSAMPLE
+      - name: NEW_CHEMICAL
       
 
         
